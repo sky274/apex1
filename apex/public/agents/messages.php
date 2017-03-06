@@ -43,8 +43,8 @@
           $created_at = strtotime($message['created_at']);
           $message_text = $message['cipher_text']; 
           $sender = db_fetch_assoc(find_agent_by_id($message['sender_id']));
-          $validity_text = verify_signature($message_text, $message['signature'], $sender['public_key']);
-          $validity_boolean = ($validity_text === 1) ? "Valid" : "Not valid";  
+          $valid_text = verify_signature($message_text, $message['signature'], $sender['public_key']);
+          $valid_check= ($validity_text === 1) ? "Valid" : "Not valid";  
           if ($agent['id'] == 1) { $message_text = pkey_decrypt($message_text, $agent['private_key']); } 
         ?>
         <tr>
