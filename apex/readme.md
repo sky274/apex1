@@ -1,0 +1,90 @@
+# Project 5 - Encryption
+
+Time spent: **10** hours spent in total
+
+## User Stories
+
+The following **required** functionality is completed:
+
+1\. Symmetric Encrypt/Decrypt
+  * [x]  Required: Repair the symmetric encrypt and decrypt code
+
+2\. Encrypted Message 1
+  * [x]  Required: Decrypt the government message
+  * [x]  Required: Encrypt a response and include in this README
+  iU4ypOL8wnAqHMTfGwv+ue8Z1al08l4pL4LmstEV6kKR0DsTGYBzDAuEEDpg76pRJlVWWXGF1/h6pcMvcnmgaQ==
+
+3\. Generate Public-Private Keys
+  * [x]  Required: Repair the key generator code
+  * [x]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
+
+4\. Asymmetric Encrypt/Decrypt
+  * [x]  Required: Repair the asymmetric encrypt and decrypt code
+
+5\. Create/Verify Signature
+  * [x]  Required: Repair the create and verify signature code
+  
+6\. Encrypted Message 2
+  * [x]  Required: Decrypt the message
+  * [x]  Required: Verify the message
+  * [x]  Required: Include a response message in this README
+
+  Body:
+  4AgnJY/ZU/walqBNbCC9d9An3E6ZTfWlX9409UWlvsvCRgG2L84dfbK2CJqRTwhcSBs/eYq3KUg3lsSkXqxHOCgUkaa7kjUXaYZM6aKElJIjqzxNA2sGE+j7Ek9lvf6QQ9LJv7Nke4Aof0lP17GkZYKP10OlF6i9lorZ1JjHS4J+1TlRumKqaJ/LwUAXfX2tACU7vWyZ8L9JBwyGbIaWjma+VzAApxCsSrisVklRckL56/VBtiY9XYF7yZyqJdTDZM4zQ/rQOabq/90ilED5IbiY+EEXhNqx9V1hxC6/7zEVeNDLF3dBJdHBg+9jsA7ud0OEWBns0WrM1jgfwo9OGg==
+
+  sig:
+  E33T9ofQI2cEtnAN4Ug+0GXbG0JxKoSEpfMYRB29yHluoucetFvvqilygYIHxW0VXp52m8oMrskdo9pnWj+v83jsGI3YeeLFfaCB11hCQUiwV/NtD61smPuiHqBEaNnzbZNHJduWBAYwX21zCt0XoCRxWTNZLi9aFk+IT3fvcNsUXHl/vYOJZiG/XQyeyPS10UKLhV5376X96htXx7iO5uY05JSjv8kIgBHnXpKCJ4ECuXpAncuC8lNvf43v1zNq2Dbnr0ZV4I5wOogQH7M82GbEOsnIRyOk11ZwlVbagXAymysk/i+FhiooPtWMo8pbvdLLIJqVT6Q/VIuZQmY5ww==
+
+7\. Agent Messages
+  * [x]  Required: Repair the dropbox code
+  * [x]  Required: Repair the messages area
+  * [x]  Required: Display encrypted messages for all agents
+  * [x]  Required: Messages indicate whether the message signature is valid
+  * [x]  Required: Your messages are automatically decrypted
+
+8\. Identify the Double Agent
+  * [x]  Required: Decrypt as many email messages as possible
+  * [x]  Required: Identify the double agent: natasha
+The following objectives are **optional**:
+
+* Bonus Objective 1\.
+  * [ ]  Track down the bugs in the code and fix them.
+
+* Bonus Objective 2\.
+  * [ ]  Write a report of your discoveries (longer than 300 characters).
+  * [ ]  Compose a secure email for sending over an insecure network.
+  * [ ]  Include the email with your encrypted report in this README.
+
+* Bonus Objective 3\.
+  * [ ]  Add a "Create/Verify Checksum" section to the Encryption Tools area.
+
+* Advanced Objective 1\.
+  * [ ]  Add support for other symmetric algorithms.
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://i.imgur.com/nzGOxSo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [2017] [Seung Yoo]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
