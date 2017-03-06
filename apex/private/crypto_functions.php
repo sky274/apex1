@@ -1,11 +1,8 @@
 <?php
 // Symmetric Encryption
-// Cipher method to use for symmetric encryption
+
 const AES_256 ='AES-256-CBC'; 
-const AES_128 ='AES-128-CBC'; 
-const AES_192 ='AES-192-CBC'; 
-const DES = "DES-EDE3-CBC"; 
-const BF ='BF-CBC'; 
+
 function key_length($cipher_method){
     return 32;
 }
